@@ -3,6 +3,7 @@ import Dashboard from "./pages/Dashboard";
 import Voitures from "./pages/Voitures";
 import Reservations from "./pages/Reservations";
 import Utilisateurs from "./pages/Utilisateurs";
+import "./styles.css"; // Import du CSS principal
 
 export default function App() {
   return (

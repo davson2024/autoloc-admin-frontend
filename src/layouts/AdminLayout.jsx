@@ -3,12 +3,12 @@ import Navbar from "../components/Navbar";
 
 export default function AdminLayout({ children }) {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="app-container">
       <Sidebar />
-      <main style={{ marginLeft: 250, padding: 30, width: "100%" }}>
+      <div className="main-content">
         <Navbar />
         {children}
-      </main>
+      </div>
     </div>
   );
 }
